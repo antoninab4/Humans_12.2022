@@ -1,6 +1,6 @@
 # Установка ноды Humans_12.2022
 
-# Humans Testnet guide
+
 
 ### Эксплоер 
 
