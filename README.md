@@ -192,3 +192,8 @@ sudo journalctl -u humansd -f -o cat
 ```python
 humansd query bank balances humans...address1yjgn7z09ua9vms259j
 ```
+# Заделегировать себе 1 токен
+```humansd tx staking delegate АДРЕС_ВАЛИДАТОРА 1000000uheart --from ИМЯ_ИЛИ_АДРЕС_КОШЕЛЬКА --chain-id testnet-1 --gas-prices 0.1uheart --gas-adjustment 1.5 --gas auto -y ```
+
+# Выход из тюрьмы
+```humansd tx slashing unjail --from ИМЯ_ИЛИ_АДРЕС_КОШЕЛЬКА --chain-id testnet-1 --gas-prices 0.1uheart --gas-adjustment 1.5 --gas auto -y```
