@@ -58,7 +58,7 @@ git clone https://github.com/humansdotai/humans
 cd humans
 git checkout v1
 go build -o humansd cmd/humansd/main.go
-mv humansd /root/go/bin/humansd
+sudo mv humansd /usr/bin/
 ```
 `humansd version --long`
 - version:
