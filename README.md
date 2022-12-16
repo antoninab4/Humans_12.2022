@@ -119,8 +119,7 @@ sed -i -e "s/^indexer *=.*/indexer = \"$indexer\"/" $HOME/.humans/config/config.
 ```python
 wget -O $HOME/.humans/config/addrbook.json "https://raw.githubusercontent.com/obajay/nodes-Guides/main/Humans/addrbook.json"
 ```
-[SNAPSHOT](https://polkachu.com/testnets/humans/snapshots)
-=
+
 
 # Создать сервисный файл
 ```python
@@ -146,6 +145,10 @@ EOF
 sudo systemctl daemon-reload && sudo systemctl enable humansd
 sudo systemctl restart humansd && sudo journalctl -u humansd -f -o cat
 ```
+
+[SNAPSHOT](https://polkachu.com/testnets/humans/snapshots)
+=
+
 
 ### Создаем validator
 ```python
